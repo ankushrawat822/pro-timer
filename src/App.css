@@ -1,0 +1,38 @@
+main {
+  text-align: center;
+  vertical-align: center;
+  line-height: 60vh
+}
+
+body{
+  background : black;
+}
+
+.timer{
+  font-size: 64px;
+  color : rgb(0, 255, 0);
+   -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+.center{
+  color : #808080;
+    line-height: 4vh
+}
+
+.center a {
+  color : inherit;
+}
+
+
+@media only screen and (max-width: 310px) {
+  .timer {
+     font-size: 44px;
+  }
+
+}
